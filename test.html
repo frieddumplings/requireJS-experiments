@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title></title>
+  
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+
+
+</head>
+<body >
+	<p>First name: <strong data-bind="text: firstName"></strong></p>
+	<p>Last name: <strong data-bind="text: lastName"></strong></p>
+</body>
+<script data-main="assets/js/common"  src="assets/js/lib/require.js" ></script>  
+<script>
+	require(['common'], function(){
+		require(['page/home']);
+	});
+</script>
+
+
+
+</html>
+
+
