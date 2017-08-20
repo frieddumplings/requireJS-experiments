@@ -6,4 +6,4 @@ define(['knockout'], function(ko){
 
 	// Activates knockout.js
 	ko.applyBindings(new AppViewModel());
-});
+}); 
